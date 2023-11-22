@@ -34,9 +34,12 @@ The advantages of this method are:
 Uncertainty quantification is essential in many situations:
 
 - When we use model predictions to make decisions. How sure are we of those predictions?
+
 - When we want to design robust systems that can handle unexpected situations (highlighting when the model has poor prediction certainty).
+
 - When we have automated a task with machine learning and need an indicator of when to intervene (e.g. fraud detection - which people should be prioritised?).
-• When we want to communicate the uncertainty associated with our predictions to stakeholders.
+
+- When we want to communicate the uncertainty associated with our predictions to stakeholders.
 
 ### What are the Sources of uncertainty?
 
