@@ -1,0 +1,13 @@
+name: cp
+channels:
+  - defaults
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.10
+  - scikit-learn
+  - pip:
+    - mapie
