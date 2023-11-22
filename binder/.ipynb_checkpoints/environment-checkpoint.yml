@@ -1,0 +1,24 @@
+name: titanic
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.8
+  - scikit-learn
+  - tensorflow-gpu=2.4
+  - pip:
+    - jupyterlab
+    - pydot
+    - graphviz
+    - imblearn
+    - imbalanced-learn
+    - shap
+    - diffprivlib
+    - optuna
+    - plotly
+    - kaleido
+  
+
