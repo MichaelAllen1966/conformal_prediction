@@ -6,9 +6,7 @@ Examples of conformal prediction. Manual calculation, and using the MAPIE packag
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MichaelAllen1966/conformal_prediction/main)
 
-## About Conformal Prediction
-
-### What is Conformal Prediction?
+## What is Conformal Prediction?
 
 Conformal prediction is both a method of uncertainty quantification, and a method of classifying instances (which may be fine-tuned for subgroups).
 
@@ -29,7 +27,7 @@ The advantages of this method are:
 
 - **Broad application**: conformal prediction works for classification, regression, time series forecasting, and many other tasks.
 
-### Why should we care about uncertainty quantificiation?
+## Why should we care about uncertainty quantificiation?
 
 Uncertainty quantification is essential in many situations:
 
@@ -41,7 +39,7 @@ Uncertainty quantification is essential in many situations:
 
 - When we want to communicate the uncertainty associated with our predictions to stakeholders.
 
-### What are the Sources of uncertainty?
+## What are the Sources of uncertainty?
 
 - The **model is trained on a random sample of data**, making the model itself a random variable. If you were to train the model on a different sample from the same distribution, you would get a slightly different model.
 
@@ -55,7 +53,7 @@ Uncertainty quantification is essential in many situations:
 
 - Data sets may have **missing values**.
 
-### Alpha in conformal prediction - describes *coverage*
+## Alpha in conformal prediction - describes *coverage*
 
 In comformal prediction we adjust alpha, which describes coverage (coverage = 1 - alpha):
 
