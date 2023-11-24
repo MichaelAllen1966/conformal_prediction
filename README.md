@@ -52,7 +52,7 @@ Uncertainty quantification is essential in many situations:
 
 - When we want to communicate the uncertainty associated with our predictions to stakeholders.
 
-## What are the Sources of uncertainty?
+## What are the sources of uncertainty?
 
 - The **model is trained on a random sample of data**, making the model itself a random variable. If you were to train the model on a different sample from the same distribution, you would get a slightly different model.
 
