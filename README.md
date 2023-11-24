@@ -1,12 +1,16 @@
 # Conformal Prediction for classification - from the ground up
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MichaelAllen1966/conformal_prediction/main)
-
-This blog post is based heavily on Chris Molner's book - Introduction to Conformal Prediction with Python:
+This repository is based on Chris Molner's book - Introduction to Conformal Prediction with Python:
 
 https://christophmolnar.com/books/conformal-prediction/
 
 Chris is brilliant at making new machine learning techniques accessible to others. I'd especially also look at his books on Explainable Machine Learning.
+
+## Run on Binder
+
+You may run the notebooks on Binder. If it hasn't been used for a while it make take about 5 mins to initialise.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MichaelAllen1966/conformal_prediction/main)
 
 ## What is Conformal Prediction?
 
