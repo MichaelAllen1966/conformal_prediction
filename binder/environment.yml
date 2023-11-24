@@ -9,5 +9,3 @@ dependencies:
   - pip
   - python=3.10
   - scikit-learn
-  - pip:
-    - mapie
